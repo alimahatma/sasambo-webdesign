@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Proyek | Sasambo Techno</title>
+    <link rel="stylesheet" href="asset/style/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="asset/images/sasambo-header.png" class="jheader">
+            </div>
+            <ul>
+                <li><a href="#Beranda">Beranda</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#cek-harga">Cek Harga</a></li>
+                <li><a href="#tentang-kami">Tentang Kami</a></li>
+            </ul>
+
+           
+
+        </nav>
+    </header>      
+    <main>
+        <div id="content">
+
+            <article id="beranda" class="card">
+                <section>
+                    <h2>Distribute & Print</h2>
+                    <img src="asset/images/print-01.png" class="feature-images" alt="beranda">
+                    <p>Mencetak kebutuhan cetakan Anda dimanapun dengan biaya yang lebih efisien. 
+                        Melalui website kami lebih flaxibel di jangkau dimanapun. 
+                        dapatkan spesial diskon dengan menjadi mamber kami.</p>
+                </section>
+                </article>
+
+               <article id="beranda" class="card">
+                   <section>
+                    <h2>Cetak DTF</h2>
+                    <img src="asset/images/print-02.png" class="feature-images" alt="beranda">
+                    <p>DTF sendiri memiliki kepanjangan Digital Transfer Film atau 
+                        Direct Transfer Film yaitu metode sablon dengan tinta
+                         khusus untuk transfer gambar dengan kertas film dengan
+                          bantuan tepung lem/ bubuk lem sablon sebagai perekat di
+                           kaos dengan cara di press dengan suhu tertentu untuk 
+                           menghasilkan sablon dengan maksimal. Jasa sablon DTF 
+                           memiliki beberapa keunggulan antara lain:</p>
+                       <ol type="a">
+                           <li>Kualitas Sablon Cerah atau Full Color</li>
+                           <li>Kekuatan Hasil Sablon Bagus</li>
+                           <li>Cocok untuk sablon logo berukuran kecil</li>
+                           <li>Cocok untuk berbagai jenis media</li>
+                           <li>Tekstur hasil sablon halus</li>      
+                       </ol>
+                   </section>
+               </article>
+           
+            <article id="produk" class="card">
+                <section>
+                    <h2>Sablon Satuan</h2>
+                    <img src="asset/images/produk-01.jpg" class="feature-images" alt="produk">
+                    <p>Melayani pemesanan untuk kaos Gathering, 
+                        Ulang tahun dengan teknik Digital Transfer Film. 
+                        Bisa pesan kaos satuan maupun lusinan dengan pelayanan 
+                        cepat dan profesional dari kami. 24 Jam Service
+                        Layanan: Sablon Baju Kelas, Sablon Kaos Gathering.</p>
+
+
+                    <h2>Bordir Komputer</h2>
+                    <img src="asset/images/produk-02.jpg" class="feature-images" alt="produk">
+                    <p>Sobat memiliki design untuk dijadikan bordir,patch, pakaian, kami 
+                        siap mengerjakan. silahkan konsultasikan. 
+                    siapa saja membutuhkan jasa kami?</p>
+                    <ol type="1">
+                        <li>Designer Baju</li>
+                        <li>Komunitas</li>
+                        <li>Instansi pemerintah dan swasta</li>
+                        <li>Sekolah</li>
+                        <li>Pedagang Bad dan Pembuat Souvenir</li>
+                    </ol>
+
+                </section>
+            </article>
+
+            <article id="cek-harga" class="card">
+                <h2>Cek Harga Sablon</h2>
+                <section>
+                  <form>
+                      <table>
+                          <tr>
+                              <th><label>Nama : </label></th>
+                              <td><input type="text" id="nama_pel" name=""></td>
+                          </tr>
+                          <tr>
+                            <th><label>Contact : </label></th>
+                            <td><input type="text" id="cp" name=""></td>
+                          </tr>
+                          <tr>
+                              <th><label>Barang : </label></th>
+                              <td>
+                                  : <select onchange="barang()" id="id_barang"></select>
+                                  <option>--PILIH BARANG--</option>
+                                  <option value="k1001">Cotton Combat 20s</option>
+                                  <option value="k1002">Cotton Combat 24s</option>
+                                  <option value="k1003">Cotton Combat 30s</option>
+                              </td>
+                          </tr>
+                          <tr>
+                            <th><label>Ukuran Sablon : </label></th>
+                            <td>
+                                : <select onchange="barang()" id="id_barang"></select>
+                                <option>--PILIH UKURAN--</option>
+                                <option value="s1001">A3 = 42 x 30 </option>
+                                <option value="s1002">A4 = 30 x 21 </option>
+                                <option value="k1001"> A5 = 21 x 15 </option>
+                                <option value="k1001"> 25 x 10 </option>
+                                <option value="k1001"> 25 x 5</option>
+                                <option value="k1001"> 10 x 10 </option>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label>Harga : </label></th>
+                            <td><input type="text" id="harga" name=""></td>
+                        </tr>
+                        <tr>
+                            <th><label>QTY : </label></th>
+                            <td><input type="text" id="qty" name=""></td>
+                        </tr>
+                        <tr>
+                            <th><label>Total : </label></th>
+                            <td><input type="text" id="total" name=""></td>
+                        </tr>
+                        
+                      </table>
+    
+                      <center>
+                        <input type="button" value="pesan" onclick="pesan()" name="">
+        
+                      </center>         
+                    </form>                 
+
+                </section>
+            </article>
+
+            <article id="tentang-kami" class="card">
+                <section>
+                    <h2></h2>
+                    <img src="" class="feature-images" alt="tentang-kami">
+                    <p>Melayani pemesanan untuk kaos Gathering, 
+                        Ulang tahun dengan teknik Digital Transfer Film. 
+                        Bisa pesan kaos satuan maupun lusinan dengan pelayanan 
+                        cepat dan profesional dari kami. 24 Jam Service
+                        Layanan: Sablon Baju Kelas, Sablon Kaos Gathering.</p>
+
+                </section>
+            </article>
+            
+        </div>
+        
+        <aside>
+            <article class="about-me card">
+                <header>
+                    <h2>About Me</h2>
+                    <p>Berikut adalah Biodata Saya:</p>
+                    <figure>
+                        <img src="asset/images/aboutme.jpg">
+                        <figcaption>about-me</figcaption>
+                    </figure>
+                   
+                    <table>
+                        <tr>
+                            <th>Nama :</th>
+                            <td>Lalu Mutawalli</td>
+                        </tr>
+                        <tr>
+                            <th>Alamat : </th>
+                            <td>Mataram-NTB</td>
+                        </tr>
+                        <tr>
+                            <th>Email : </th>
+                            <td>laluallistilo@gmail.com</td>
+                        </tr>
+                    </table>
+                </header>
+            </article>
+        </aside>
+    </main> 
+
+    <footer>
+        <a>Sasambo Techno &copy; 2022, Lalu Mutawalli</a>
+        
+    </footer>
+    
+    <script src="asset/style/main.js"></script>
+</body>
+</html>
